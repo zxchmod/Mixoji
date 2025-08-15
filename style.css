@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background: #fffbe6;
+  transition: background 0.5s;
+}
+
+.container {
+  display: inline-block;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  background-color: #ffcc00;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+.emoji-inputs input {
+  font-size: 32px;
+  width: 60px;
+  text-align: center;
+  margin: 5px;
+}
+
+.mix-button {
+  margin-top: 10px;
+  font-size: 20px;
+  background-color: #ff9900;
+  color: white;
+}
+
+.result-box {
+  font-size: 64px;
+  margin-top: 20px;
+  min-height: 80px;
+  transition: transform 0.3s;
+}
+
+.history-container {
+  margin-top: 30px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.history {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.history-item {
+  font-size: 36px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.history-item:hover {
+  transform: scale(1.2);
+}
